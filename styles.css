@@ -60,6 +60,7 @@ body{
 
 .hambgrbtn{
 	display: none;
+	cursor: pointer;
 }
 
 .front{
