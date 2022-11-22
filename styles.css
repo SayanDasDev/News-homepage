@@ -34,11 +34,13 @@ body{
 	font-family: Inter, var(--font-fallback);
 	display: flex;
 	justify-content: center;
+	background-color: white;
 }
 
 .container {
 	width: 80vw;
 	padding: 2.5rem 1rem;
+	background-color: white;
 }
 
 .container.active{
