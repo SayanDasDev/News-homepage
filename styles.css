@@ -241,7 +241,7 @@ body{
 }
 
 
-@media (max-width: 35em){
+@media (max-width: 950px){
 	.container{
 		padding: 1.25rem;
 	}
