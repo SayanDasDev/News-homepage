@@ -43,8 +43,9 @@ body{
 	background-color: white;
 }
 
-.container.active{
-	filter: blur(10px);
+.active{
+	filter: blur(2px) brightness(45%);
+	transition: all 300ms ease;
 }
 
 .header{
@@ -262,6 +263,11 @@ body{
 	
 	.navbar ul[data-visible="true"]{
 		transform: translateX(0%);
+	}
+
+	.navbar ul li{
+		color: black;
+		padding: 1rem 1.5rem;
 	}
 
 	.hambgrbtn{
